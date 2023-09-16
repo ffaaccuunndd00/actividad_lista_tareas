@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>To do list</h1>
+    <input type="text" id="nuevaTarea" placeholder="Ingrese una nueva tarea">
+    <button onclick="agregarTarea()">Agregar</button>
+    <div>
+        <button onclick="mostrarCompletadas()">Mostrar Completadas</button>
+        <button onclick="mostrarPendientes()">Mostrar Pendientes</button>
+        <button onclick="mostrarTodas()">Mostrar todas</button>
+    </div>
+    <ul id="listaTareas"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
